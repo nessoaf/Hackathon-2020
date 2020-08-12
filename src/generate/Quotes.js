@@ -7,7 +7,7 @@ import  {Button}  from 'react-bootstrap'
 
 
 export default function Quotes() {
-  let [quote, setQuote] = useState([])
+  let [quote, setQuote] = useState('')
   let [image, setImage] = useState('')
 
   let quotes = [
@@ -19,7 +19,7 @@ export default function Quotes() {
     "It is never too late to be what you might have been. - 'George Eliot'",
     "Happiness is not by chance, but by choice. - 'Jim Rohn'"
   ]
-  let randInt = Math.floor(Math.random * quotes.length)
+  let randInt = parseInt(Math.floor(Math.random() * quotes.length))
   const handleQuote = () => {
     setQuote(quotes[randInt])
   } 
@@ -36,7 +36,8 @@ export default function Quotes() {
     console.log(image)
 
   }
-  console.log(quote)
+  console.log(randInt)
+  console.log(quotes.length)
 
 
   return (
