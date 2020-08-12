@@ -1,5 +1,5 @@
 import React from 'react'
-import Quotes from './Quotes'
+import Quotes from '../generate/Quotes'
 
 export default function Home() {
   return (
