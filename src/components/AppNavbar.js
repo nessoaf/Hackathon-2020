@@ -11,6 +11,7 @@ export default function AppNavbar() {
         </div>
         <Nav className="mr-auto">
         </Nav>
+        <Nav.Link className='content' href="/">Random</Nav.Link>
         <Nav.Link className='content' href="/create">Create</Nav.Link>
         <Nav.Link className='content' href="/profile">Profile</Nav.Link>
       </Navbar.Collapse>
