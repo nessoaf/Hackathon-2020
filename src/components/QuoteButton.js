@@ -10,7 +10,7 @@ export default function QuoteButton() {
   return (
     <div>
       <Button onClick={handleClick}>
-        Submit
+        Generate
       </Button>
     </div>
   )
