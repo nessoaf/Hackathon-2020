@@ -5,6 +5,7 @@ import { Dropdown } from 'react-bootstrap'
 export default function DownloadOption() {
   return (
     <div className="download-container"> 
+      <h1>Share</h1>
       <div className="image-container">
         <img src="./img/facebook.png" />
         <img src="./img/instagram.png" />
@@ -13,7 +14,7 @@ export default function DownloadOption() {
       </div>
       <Dropdown className="m-5">
         <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Dropdown Button
+          Dropdown 
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
