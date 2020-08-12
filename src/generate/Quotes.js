@@ -43,8 +43,10 @@ export default function Quotes() {
     <div>
       <Card className="m-5 w-a">
         <Card.Body>
+
           <img className='image' src={image} alt="random pic"/>
           <h3><span>{quote}</span></h3>
+     
         </Card.Body>
       </Card>
       <Button onClick={handleClick}>Generate Quote</Button>
