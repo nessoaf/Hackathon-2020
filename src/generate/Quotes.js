@@ -8,7 +8,8 @@ export default function Quotes() {
     <div>
       <Card className="m-5 w-a">
         <Card.Body>
-
+        <img className='image' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/inspirational-quotes-william-james-1562000241.png?crop=1xw:1xh;center,top&resize=980:*" />
+        
         </Card.Body>
       </Card>
       <QuoteButton />
