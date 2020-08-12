@@ -12,6 +12,8 @@ export default function AppNavbar() {
           <Nav.Link href="/create">Create</Nav.Link>
           <Nav.Link href="/profile">Profile</Nav.Link>
         </Nav>
+        <Nav.Link className='content' href="/create">Create</Nav.Link>
+        <Nav.Link className='content' href="/profile">Profile</Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   )
