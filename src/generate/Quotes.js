@@ -8,7 +8,7 @@ export default function Quotes() {
     <div>
       <Card className="m-5 w-a">
         <Card.Body>
-          
+
         </Card.Body>
       </Card>
       <QuoteButton />
