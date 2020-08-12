@@ -9,7 +9,7 @@ export default function QuoteButton() {
 
   return (
     <div>
-      <Button onClick={handleClick}>
+      <Button className="btn-secondary" onClick={handleClick}>
         Generate
       </Button>
     </div>
