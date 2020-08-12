@@ -4,12 +4,19 @@ import { Switch, Route, Router } from 'react-router-dom';
 import Home from './components/Home'
 import AppNavbar from './components/AppNavbar'
 import CreateQuote from './components/CreateQuote'
+import Profile from './components/Profile'
 
 function App() {
   return (
     <div className="App">
-      <AppNavbar />
-      <Home />
+      <AppNavbar component={AppNavbar} />
+      <div>
+        <Switch>
+          <Route path='/create' render={props => <CreateQuote />} />
+          <Route path='/profile' component={Profile} />
+          <Route path='/' render={props => <Home />} />
+        </Switch>
+      </div>
     </div>
   );
 }

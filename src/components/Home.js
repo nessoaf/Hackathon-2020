@@ -3,7 +3,8 @@ import Quotes from '../generate/Quotes'
 
 export default function Home() {
   return (
-    <div>      
+    <div>   
+      <h1>Random Quote</h1>   
       <Quotes />
     </div>
   )
