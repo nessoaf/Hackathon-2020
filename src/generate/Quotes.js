@@ -7,6 +7,7 @@ import  {Button}  from 'react-bootstrap'
 
 
 export default function Quotes() {
+  // put image url into the useState for image (so that a image renders on load) 
   let [quote, setQuote] = useState('')
   let [image, setImage] = useState('https://picsum.photos/id/1049/800')
 
