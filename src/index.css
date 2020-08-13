@@ -19,7 +19,7 @@ code {
 }
  
 .image {
-  height: 800px;
+  height: 700px;
   width: 100%;
   margin: 0 auto;
 }
@@ -27,7 +27,7 @@ code {
 .icon {
   height: 50px;
   width: 50px;
-  margin: 5px
+  margin-bottom: 40px
 }
 
 .quote-container {
@@ -56,7 +56,7 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -72,14 +72,14 @@ code {
 .download-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 35%;
   height: auto;
 }
 .image-container {
   display: flex;
   align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   width: 30%;
   height: auto;
@@ -88,9 +88,9 @@ code {
 .dropdown-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
-  width: 100%;
+  width: 35%;
   height: auto;
 }
 
@@ -121,4 +121,8 @@ code {
   transform: translate(-50%, -50%);
   z-index: 1;
   /* text-shadow: 2px 2px black ; */
+}
+
+.z-idx {
+  z-index: 1;
 }
