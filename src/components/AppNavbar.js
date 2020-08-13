@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 export default function AppNavbar() {
   return (
-    <Navbar bg="" expand="lg" className="p-4 navbarcolor">
+    <Navbar bg="" expand="lg" className="p-3 navbarcolor">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <div className='navbar-brand-centered'>

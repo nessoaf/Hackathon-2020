@@ -6,13 +6,13 @@ import { Dropdown } from 'react-bootstrap'
 export default function ImageCreated() {
   return (
     <div className="imagecreated-container">
-      <Card className="ml-5 mr-5 mb-4 mt-5 w-80">
+      <Card className="ml-5 mr-5 mb-4 mt-5 w-60">
         <img className='image' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/inspirational-quotes-william-james-1562000241.png?crop=1xw:1xh;center,top&resize=980:*" />
       </Card>
       <div className="button-container">
-      <Button className="m-3 content">Create</Button>
+      <Button variant="light" className="m-3 z-idx content">Create</Button>
         <Dropdown className="m-3 border-0">
-          <Dropdown.Toggle className="border-0 content" id="dropdown-basic">
+          <Dropdown.Toggle className="border-0 z-idx content" variant="light" id="dropdown-basic">
             Export 
           </Dropdown.Toggle>
           <Dropdown.Menu>

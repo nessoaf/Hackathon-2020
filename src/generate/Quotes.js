@@ -125,7 +125,7 @@ export default function Quotes() {
           <h3 className='centered quotes'><span className=''>{quote}</span></h3>
         </div>
       </Card>
-      <Button onClick={handleClick} className='content'>Generate Quote</Button>
+      <Button onClick={handleClick} className='content' variant="light" >Generate Quote</Button>
     </div>
   )
 }
