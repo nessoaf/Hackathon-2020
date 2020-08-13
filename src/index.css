@@ -34,6 +34,20 @@ code {
   width: 50px;
 }
 
+.icon1 {
+  height: 50px;
+  width: 50px;
+}
+.icon2 {
+  height: 15%;
+  width: 15%;
+  margin: 5px;
+}
+.icon3 {
+  height: 75%;
+  width: 23%;
+}
+
 .quote-container {
   display: flex;
   justify-content: center;

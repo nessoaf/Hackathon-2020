@@ -15,7 +15,8 @@ export default function ImageCreated(props) {
       </Card>
 
       <div className="button-container">
-      <Button variant="light" className="m-3 z-idx content" onClick={props.handleGenerate}>Create</Button>
+
+      <Button variant="light" className="m-3 z-idx content" onClick={props.handleGenerate}>Create <img className='icon3' src="./img/refresh.png" /></Button>
         <Dropdown className="m-3 border-0">
           <Dropdown.Toggle className="border-0 z-idx content" variant="light" id="dropdown-basic">
             Export 
