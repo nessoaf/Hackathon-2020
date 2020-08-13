@@ -1,7 +1,7 @@
 import React from 'react'
 import { Dropdown } from 'react-bootstrap'
 
-export default function DropdownOption() {
+export default function DropdownOption(props) {
   
   return (
     <div className="dropdown-container">
@@ -10,7 +10,8 @@ export default function DropdownOption() {
           Quote Genre
         </Dropdown.Toggle>
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Funny</Dropdown.Item>
+          <Dropdown.Item href="#/action-1" onClick={props.phase1}>Funny</Dropdown.Item>
+
           <Dropdown.Item href="#/action-2">Discovery</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Uplifting</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Disney</Dropdown.Item>
@@ -25,7 +26,7 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-1">Abril Fatface</Dropdown.Item>
           <Dropdown.Item href="#/action-2">Dancing Script</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Monoton</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Press Start</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" onClick={props.phase2}>Press Start</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Shadows Into Light</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
@@ -35,10 +36,8 @@ export default function DropdownOption() {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Small</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Large</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Vector</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">Color</Dropdown.Item>
+          <Dropdown.Item href="#/action-2" onClick={props.phase4}>Black and White</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <Dropdown className="mb-4 image-type">
@@ -54,7 +53,7 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Landscape</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Patterns</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Texture</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Food</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" onClick={props.phase3}>Food</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Flowers</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Upload Photo<img className='icon2' src="./img/006-upload.png" /></Dropdown.Item>
         </Dropdown.Menu>
@@ -71,7 +70,8 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Black Wood</Dropdown.Item>
           <Dropdown.Item href="#/action-3">White Wood</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Ornate</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Circular</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" onClick={props.phase5}>Fire</Dropdown.Item>
+
         </Dropdown.Menu>
       </Dropdown>
       <img hidden className='nesso' src="./img/nesso.png" alt=""/>
