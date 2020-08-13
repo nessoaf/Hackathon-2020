@@ -57,18 +57,17 @@ export default function Quotes() {
     handleQuote()
     handleImage()
     console.log(image)
-
   }
 
   return (
     <div className="quote-container">
-      <Card className="">
+      <Card className="ml-5 mr-5 mb-4 mt-4 w-80">
+        <img src={image} alt="random img"></img>
         <Card.Body>
-          <img src={image} alt="random img"></img>
           <h3><span>{quote}</span></h3>
         </Card.Body>
       </Card>
-      <Button onClick={handleClick}>Generate Quote</Button>
+      <Button onClick={handleClick} className="content">Generate Quote</Button>
     </div>
   )
 }

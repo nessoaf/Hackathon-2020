@@ -4,19 +4,19 @@ import { Dropdown } from 'react-bootstrap'
 export default function DropdownOption() {
   return (
     <div className="dropdown-container">
-      <Dropdown className="m-3 background">
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
+      <Dropdown className="background">
+        <Dropdown.Toggle variant="light" id="dropdown-basic" className="content">
           Quote Genre
         </Dropdown.Toggle>
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Funny</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Discovery</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Uplifting</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Disney</Dropdown.Item>
+          <Dropdown.Item href="#/action-1" className="content">Funny</Dropdown.Item>
+          <Dropdown.Item href="#/action-2" className="content">Discovery</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Uplifting</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Disney</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="m-3 quote-genre">
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
+      <Dropdown className="quote-genre">
+        <Dropdown.Toggle variant="light" id="dropdown-basic" className="content">
           Fonts
         </Dropdown.Toggle>
 
@@ -28,47 +28,47 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Shadows Into Light</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="m-3 fonts">
-        <Dropdown.Toggle className="pr-4 pl-4" variant="success" id="dropdown-basic">
+      <Dropdown className="fonts">
+        <Dropdown.Toggle className="pr-4 pl-4 content" variant="success" id="dropdown-basic">
           Image Type
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Color</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Black</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">White</Dropdown.Item>
+          <Dropdown.Item href="#/action-1" className="content">Color</Dropdown.Item>
+          <Dropdown.Item href="#/action-2" className="content">Black</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">White</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="m-3 image-type">
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
+      <Dropdown className="image-type">
+        <Dropdown.Toggle variant="light" id="dropdown-basic" className="content">
           Background
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Cityscape</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Ocean</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Abstract</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Nature</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Landscape</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Patterns</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Texture</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Food</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Flowers</Dropdown.Item>
+          <Dropdown.Item href="#/action-1" className="content">Cityscape</Dropdown.Item>
+          <Dropdown.Item href="#/action-2" className="content">Ocean</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Abstract</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Nature</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Landscape</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Patterns</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Texture</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Food</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Flowers</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="m-3 frame">
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
+      <Dropdown className="frame">
+        <Dropdown.Toggle variant="light" id="dropdown-basic" className="content">
           Frame
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Rustic Wood</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Silver Metal</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Metallic</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Black Wood</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">White Wood</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Ornate</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Circular</Dropdown.Item>
+          <Dropdown.Item href="#/action-1" className="content">Rustic Wood</Dropdown.Item>
+          <Dropdown.Item href="#/action-2" className="content">Silver Metal</Dropdown.Item>
+          <Dropdown.Item href="#/action-3"className="content">Metallic</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Black Wood</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">White Wood</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Ornate</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Circular</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
     </div>

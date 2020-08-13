@@ -31,7 +31,7 @@ code {
   flex-direction: column;
   width: 100%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 15px;
   margin-bottom: 100px;
 }
 
@@ -99,4 +99,8 @@ code {
   width: 150px;
   border-color: none;
   color: black;
+}
+
+.home-header {
+  margin: 30px
 }
