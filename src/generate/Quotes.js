@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 //import QuoteButton from './QuoteButton'
 import { Card } from 'react-bootstrap'
-import axios from 'axios'
+//import axios from 'axios'
 import  {Button}  from 'react-bootstrap'
 
 
@@ -19,33 +19,53 @@ export default function Quotes() {
     "It is never too late to be what you might have been. - 'George Eliot'",
     "Happiness is not by chance, but by choice. - 'Jim Rohn'"
   ]
+
+  let images = [
+    "https://picsum.photos/id/10/800",
+    "https://picsum.photos/id/100/800",
+    "https://picsum.photos/id/1000/800",
+    "https://picsum.photos/id/1006/800",
+    "https://picsum.photos/id/1010/800",
+    "https://picsum.photos/id/1015/800",
+    "https://picsum.photos/id/1016/800",
+    "https://picsum.photos/id/1018/800",
+    "https://picsum.photos/id/1019/800",
+    "https://picsum.photos/id/1021/800",
+    "https://picsum.photos/id/1022/800",
+    "https://picsum.photos/id/1025/800",
+    "https://picsum.photos/id/1028/800",
+    "https://picsum.photos/id/1032/800",
+    "https://picsum.photos/id/1036/800",
+    "https://picsum.photos/id/1037/800",
+    "https://picsum.photos/id/1039/800",
+    "https://picsum.photos/id/1043/800",
+    "https://picsum.photos/id/1044/800",
+    "https://picsum.photos/id/1049/800",
+  ]
   let randInt = parseInt(Math.floor(Math.random() * quotes.length))
+  let randImg = parseInt(Math.floor(Math.random() * images.length))
   const handleQuote = () => {
     setQuote(quotes[randInt])
-  } 
+  }
+  
+  const handleImage = () => {
+    setImage(images[randImg])
+  }
 
   const handleClick= (e) => {
-    //e.preventDefault()
+    e.preventDefault()
     handleQuote()
-    axios.get('https://picsum.photos/200/300')
-      .then(response => {
-        setImage(response)
-      }).catch(err => {
-        console.log(err)
-      })
+    handleImage()
     console.log(image)
 
   }
-  console.log(randInt)
-  console.log(quotes.length)
-
 
   return (
     <div>
       <Card className="m-5 w-a">
-        <Card.Body>
+        <Card.Body className="image">
 
-          <img className='image' src={image} alt="random pic"/>
+          <img src={image} alt="random img"></img>
           <h3><span>{quote}</span></h3>
      
         </Card.Body>
