@@ -4,7 +4,7 @@ import { Dropdown } from 'react-bootstrap'
 export default function DropdownOption() {
   return (
     <div className="dropdown-container">
-      <Dropdown className="background">
+      <Dropdown className="m-3 background">
         <Dropdown.Toggle variant="light" id="dropdown-basic" className="content">
           Quote Genre
         </Dropdown.Toggle>
@@ -15,7 +15,7 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3" className="content">Disney</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="quote-genre">
+      <Dropdown className="m-3 quote-genre">
         <Dropdown.Toggle variant="light" id="dropdown-basic" className="content">
           Fonts
         </Dropdown.Toggle>
@@ -28,18 +28,17 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Shadows Into Light</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="fonts">
-        <Dropdown.Toggle className="pr-4 pl-4 content" variant="success" id="dropdown-basic">
+      <Dropdown className="m-3 fonts">
+        <Dropdown.Toggle className="pr-4 pl-4 content" variant="light" id="dropdown-basic">
           Image Type
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
           <Dropdown.Item href="#/action-1" className="content">Color</Dropdown.Item>
-          <Dropdown.Item href="#/action-2" className="content">Black</Dropdown.Item>
-          <Dropdown.Item href="#/action-3" className="content">White</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Black & White</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="image-type">
+      <Dropdown className="m-2 image-type">
         <Dropdown.Toggle variant="light" id="dropdown-basic" className="content">
           Background
         </Dropdown.Toggle>
@@ -56,7 +55,7 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3" className="content">Flowers</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="frame">
+      <Dropdown className="m-3 frame">
         <Dropdown.Toggle variant="light" id="dropdown-basic" className="content">
           Frame
         </Dropdown.Toggle>
