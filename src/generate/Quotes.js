@@ -17,7 +17,13 @@ export default function Quotes() {
     "Life is like riding a bicycle. To keep your balance, you must keep moving. - 'Albert Einstein'",
     'Nothing is impossible. The word itself says "I\'m possible!" - \'Audrey Hepburn\'',
     "It is never too late to be what you might have been. - 'George Eliot'",
-    "Happiness is not by chance, but by choice. - 'Jim Rohn'"
+    "Happiness is not by chance, but by choice. - 'Jim Rohn'",
+    "People who wonder whether the glass is half empty or half full miss the point. The glass is refillable. – 'Simon Sinek'",
+    "Think like a proton. Always positive.",
+    "No one is perfect — that’s why pencils have erasers.",
+    "Choose to be optimistic, it feels better. - 'Dalia Lama'",
+    "The meaning of life is to find your gift. The purpose of life is to give it away.",
+    "If you focus on what you left behind, you will never be able to see what lies ahead. - 'Gusteau(Ratatoulle)'"
   ]
 
   let images = [
