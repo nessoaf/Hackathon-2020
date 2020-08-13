@@ -23,11 +23,11 @@ export default function DropdownOption(props) {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Abril Fatface</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Dancing Script</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Monoton</Dropdown.Item>
-          <Dropdown.Item href="#/action-3" onClick={props.phase2}>Press Start</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Shadows Into Light</Dropdown.Item>
+          <Dropdown.Item className='fatface' href="#/action-1">Abril Fatface</Dropdown.Item>
+          <Dropdown.Item className='dancing' href="#/action-2">Dancing Script</Dropdown.Item>
+          <Dropdown.Item className='monoton' href="#/action-3">Monoton</Dropdown.Item>
+          <Dropdown.Item className='start2p' href="#/action-3" onClick={props.phase2}>Press Start</Dropdown.Item>
+          <Dropdown.Item className='shadow' href="#/action-3">Shadows Into Light</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <Dropdown className="mb-4 fonts z-idx">
