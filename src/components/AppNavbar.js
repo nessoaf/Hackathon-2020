@@ -7,7 +7,7 @@ export default function AppNavbar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <div className='navbar-brand-centered'>
-          <Nav.Link className='title textcolor' href="/">InspoME</Nav.Link>
+          <Nav.Link className='title' href="/">InspoME</Nav.Link>
         </div>
         <Nav className="mr-auto">
         </Nav>

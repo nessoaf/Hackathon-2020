@@ -43,7 +43,9 @@
 
 .title {
   font-family: 'Londrina Shadow', cursive;
-  font-size: 5vh;
+  font-size: 6vh;
+  color: white;
+  font-weight: bolder;
 }
 .content {
   font-family: 'Roboto', sans-serif;

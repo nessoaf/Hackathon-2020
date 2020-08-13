@@ -8,7 +8,7 @@ import  {Button}  from 'react-bootstrap'
 
 export default function Quotes() {
   let [quote, setQuote] = useState('')
-  let [image, setImage] = useState('')
+  let [image, setImage] = useState('https://picsum.photos/id/1049/800')
 
   let quotes = [
     "You got this champ!",
