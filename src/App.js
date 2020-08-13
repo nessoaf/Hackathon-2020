@@ -13,7 +13,6 @@ function App() {
       <div>
         <Switch>
           <Route path='/profile' component={Profile} />
-          <Route path='/random' render={props => <Home />} />
           <Route path='/' render={props => <CreateQuote />} />
         </Switch>
       </div>
