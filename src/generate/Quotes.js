@@ -61,10 +61,9 @@ export default function Quotes() {
   }
 
   return (
-    <div>
-      <Card className="m-5 w-a">
-        <Card.Body className="image">
-
+    <div className="quote-container">
+      <Card className="m-5 w-50">
+        <Card.Body>
           <img src={image} alt="random img"></img>
           <h3><span>{quote}</span></h3>
      

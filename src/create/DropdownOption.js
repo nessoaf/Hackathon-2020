@@ -4,9 +4,9 @@ import { Dropdown } from 'react-bootstrap'
 export default function DropdownOption() {
   return (
     <div className="dropdown-container">
-      <Dropdown className="m-3">
+      <Dropdown className="m-3 background">
         <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Dropdown Button
+          Background 
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
@@ -15,9 +15,9 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="m-3">
+      <Dropdown className="m-3 quote-genre">
         <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Dropdown Button
+          Quote Genre
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
@@ -26,9 +26,9 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="m-3">
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Dropdown Button
+      <Dropdown className="m-3 fonts">
+        <Dropdown.Toggle className="pr-4 pl-4" variant="success" id="dropdown-basic">
+          Fonts
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
@@ -37,9 +37,9 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="m-3">
+      <Dropdown className="m-3 image-type">
         <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Dropdown Button
+          Image Type
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
@@ -48,9 +48,9 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown className="m-3">
+      <Dropdown className="m-3 frame">
         <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Dropdown Button
+          Frame
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
