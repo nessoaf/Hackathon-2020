@@ -53,6 +53,7 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3" className="content">Texture</Dropdown.Item>
           <Dropdown.Item href="#/action-3" className="content">Food</Dropdown.Item>
           <Dropdown.Item href="#/action-3" className="content">Flowers</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">Upload Photo <img src="./img/006-upload.png" className="upload-img"></img></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <Dropdown className="m-3 frame">
@@ -68,6 +69,7 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3" className="content">White Wood</Dropdown.Item>
           <Dropdown.Item href="#/action-3" className="content">Ornate</Dropdown.Item>
           <Dropdown.Item href="#/action-3" className="content">Circular</Dropdown.Item>
+          <Dropdown.Item href="#/action-3" className="content">None</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
     </div>

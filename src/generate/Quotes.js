@@ -7,9 +7,8 @@ import  {Button}  from 'react-bootstrap'
 
 
 export default function Quotes() {
-  // put image url into the useState for image (so that a image renders on load) 
   let [quote, setQuote] = useState('')
-  let [image, setImage] = useState('https://picsum.photos/id/1049/800')
+  let [image, setImage] = useState('')
 
   let quotes = [
     "You got this champ!",
@@ -70,7 +69,7 @@ export default function Quotes() {
     <div className="quote-container">
       <Card className="ml-5 mr-5 mb-4 mt-3 w-80">
         <img src={image}></img>
-        <h3 className="centered"><span>{quote}</span></h3>
+        <h1 className="centered"><span>{quote}</span></h1>
       </Card>
       <Button onClick={handleClick} className="content">Generate Quote</Button>
     </div>

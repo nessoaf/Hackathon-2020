@@ -12,8 +12,14 @@ code {
     monospace;
 }
 
+.upload-img {
+  height: 15%;
+  width: 15%;
+  margin-left: 5px;
+}
+ 
 .image {
-  height: auto;
+  height: 800px;
   width: 100%;
   margin: 0 auto;
 }
@@ -89,7 +95,8 @@ code {
 }
 
 .btn {
-  width: 150px;
+  height: 55px;
+  width: 160px;
   border: none;
   border-color: none;
   color: black;
