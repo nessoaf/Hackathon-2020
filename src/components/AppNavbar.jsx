@@ -12,8 +12,8 @@ export default function AppNavbar() {
         <Nav className="mr-auto">
         </Nav>
         <Nav.Link className='content textcolor' href="/">Random</Nav.Link>
-        <Nav.Link className='content textcolor' href="/create">Create</Nav.Link>
-        <Nav.Link className='content textcolor' href="/profile">Profile</Nav.Link>
+        <Nav.Link className='content textcolor' href="/create"><img className='icon' src="./img/002-like-1.png" alt=""/></Nav.Link>
+        <Nav.Link href="/profile"><img src="./img/profile.png" alt=""/></Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   )

@@ -107,6 +107,9 @@
   text-align: left;
 }
 .center {
-display: flex;
-justify-content: center;
+  margin: 0 auto;
+position: fixed;
+top: 425px;
+
+width: 33%;
 }
