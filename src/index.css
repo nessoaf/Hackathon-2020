@@ -15,6 +15,7 @@ code {
 .image {
   height: auto;
   width: 100%;
+  margin: 0 auto;
 }
 
 img {
@@ -54,22 +55,31 @@ img {
   height: auto;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
 .download-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
-.image-container {
+/* .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   width: 50%;
   height: auto;
-}
+} */
 
 .dropdown-container {
   display: flex;
@@ -78,4 +88,8 @@ img {
   flex-direction: column;
   width: 100%;
   height: auto;
+}
+
+.btn {
+  width: 150px;
 }

@@ -4,9 +4,9 @@ import { Dropdown } from 'react-bootstrap'
 export default function DropdownOption() {
   return (
     <div className="dropdown-container">
-      <Dropdown className="m-3 w-50 background">
+      <Dropdown className="m-3 background">
         <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Background
+          Background 
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
@@ -28,7 +28,7 @@ export default function DropdownOption() {
       </Dropdown>
       <Dropdown className="m-3 fonts">
         <Dropdown.Toggle className="pr-4 pl-4" variant="success" id="dropdown-basic">
-          Fonts 
+          Fonts
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
