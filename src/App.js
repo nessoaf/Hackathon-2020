@@ -12,9 +12,9 @@ function App() {
       <AppNavbar component={AppNavbar} />
       <div>
         <Switch>
-          <Route path='/create' render={props => <CreateQuote />} />
           <Route path='/profile' component={Profile} />
-          <Route path='/' render={props => <Home />} />
+          <Route path='/random' render={props => <Home />} />
+          <Route path='/' render={props => <CreateQuote />} />
         </Switch>
       </div>
     </div>
