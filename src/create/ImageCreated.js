@@ -10,7 +10,7 @@ export default function ImageCreated() {
         <img className='image' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/inspirational-quotes-william-james-1562000241.png?crop=1xw:1xh;center,top&resize=980:*" />
       </Card>
       <div className="button-container">
-      <Button variant="light" className="m-3 z-idx content">Create</Button>
+      <Button variant="light" className="m-3 z-idx content">Create <img className='icon3' src="./img/refresh.png" /></Button>
         <Dropdown className="m-3 border-0">
           <Dropdown.Toggle className="border-0 z-idx content" variant="light" id="dropdown-basic">
             Export 

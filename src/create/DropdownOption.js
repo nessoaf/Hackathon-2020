@@ -55,6 +55,7 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Texture</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Food</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Flowers</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Upload Photo<img className='icon2' src="./img/006-upload.png" /></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <Dropdown className="mb-4 frame">
