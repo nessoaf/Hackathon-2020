@@ -108,6 +108,7 @@ export default function CreateQuote() {
   }
 
   const phaseOne = () => {
+    setQuote(``)
     setImage(`./img/phase1.png`)
   }
   const phaseTwo = () => {

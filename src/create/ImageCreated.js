@@ -8,7 +8,7 @@ export default function ImageCreated(props) {
     <div className="imagecreated-container">
 
       <Card className="ml-5 mr-5 mb-4 mt-5 w-60">
-        <img src={props.image}></img>
+        <img className="image" src={props.image}></img>
         <div className=''>
           <h3 className='centered quotes'><span className=''>{props.quote}</span></h3>
         </div>
