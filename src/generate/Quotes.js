@@ -13,18 +13,18 @@ export default function Quotes() {
 
   let quotes = [
     "You got this champ!",
-    "Sometimes you have to see the worst in life to appreciate the best in life.",
-    "I can't change the direction of the wind, but I can adjust my sails to always reach my destination. - 'Jimmy Dean'",
-    "Life is like riding a bicycle. To keep your balance, you must keep moving. - 'Albert Einstein'",
-    'Nothing is impossible. The word itself says "I\'m possible!" - \'Audrey Hepburn\'',
-    "It is never too late to be what you might have been. - 'George Eliot'",
-    "Happiness is not by chance, but by choice. - 'Jim Rohn'",
-    "People who wonder whether the glass is half empty or half full miss the point. The glass is refillable. – 'Simon Sinek'",
-    "Think like a proton. Always positive.",
-    "No one is perfect — that’s why pencils have erasers.",
-    "Choose to be optimistic, it feels better. - 'Dalia Lama'",
-    "The meaning of life is to find your gift. The purpose of life is to give it away.",
-    "If you focus on what you left behind, you will never be able to see what lies ahead. - 'Gusteau(Ratatoulle)'"
+    '"Sometimes you have to see the worst in life to appreciate the best in life."',
+    '"I can\'t change the direction of the wind, but I can adjust my sails to always reach my destination." - Jimmy Dean',
+    '"Life is like riding a bicycle. To keep your balance, you must keep moving." - Albert Einstein',
+    '"Nothing is impossible. The word itself says \"I\'m possible!\"." - Audrey Hepburn',
+    '"It is never too late to be what you might have been". - George Eliot',
+    '"Happiness is not by chance, but by choice." - Jim Rohn',
+    '"People who wonder whether the glass is half empty or half full miss the point. The glass is refillable." – Simon Sinek',
+    '"Think like a proton. Always positive."',
+    '"No one is perfect — that’s why pencils have erasers."',
+    '"Choose to be optimistic, it feels better." - Dalia Lama',
+    '"The meaning of life is to find your gift. The purpose of life is to give it away."',
+    '"If you focus on what you left behind, you will never be able to see what lies ahead." - Gusteau(Ratatoulle)'
   ]
 
   let images = [
@@ -70,7 +70,9 @@ export default function Quotes() {
     <div className="quote-container">
       <Card className="ml-5 mr-5 mb-4 mt-3 w-80">
         <img src={image}></img>
+        <div className="">
         <h3 className="centered"><span>{quote}</span></h3>
+        </div>
       </Card>
       <Button onClick={handleClick} className="content">Generate Quote</Button>
     </div>
