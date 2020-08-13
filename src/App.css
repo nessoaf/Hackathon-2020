@@ -118,3 +118,10 @@ width: 33%;
   opacity: 50%;
   z-index: 2;
 }
+.quotes {
+  background-color: white;
+  opacity: .5;
+  text-align: center;
+  justify-content: center;
+z-index: 5;
+}
