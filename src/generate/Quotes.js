@@ -39,20 +39,19 @@ export default function Quotes() {
     `Chemistry can be a good and bad thing. Chemistry is good when you make love with it. Chemistry is bad when you make crack with it. -Adam Sandler`
   ]
 
-let discoveries = [
-  `The real voyage of discovery consists not in seeking new landscapes, but in having new eyes. - Marcel Proust`,
-  `Some beautiful paths can't be discovered without getting lost.― Erol Ozan`,
-  `No great discovery was ever made without a bold guess.― Isaac Newton`,
-  `Discovery consists of looking at the same thing as everyone else and thinking something different.― Albert Szent - Gyorgyi`,
-  `We must risk going too far to discover just how far we can go.`,
-  ]
+  let discoveries = [
+    `The real voyage of discovery consists not in seeking new landscapes, but in having new eyes. - Marcel Proust`,
+    `Some beautiful paths can't be discovered without getting lost.― Erol Ozan`,
+    `No great discovery was ever made without a bold guess.― Isaac Newton`,
+    `Discovery consists of looking at the same thing as everyone else and thinking something different.― Albert Szent - Gyorgyi`,
+    `We must risk going too far to discover just how far we can go.`,
+    ]
   let upliftin = [
     `People who wonder whether the glass is half empty or half full miss the point.The glass is refillable.– Simon Sinek`,
       `Think like a proton.Always positive.– Anonymous`,
       `No one is perfect — that’s why pencils have erasers.– Anonymous`,
       `Choose to be optimistic, it feels better.– Dalai Lama`,
       `The meaning of life is to find your gift.The purpose of life is to give it away.– Anonymous`
-
   ]
   let disneys = [
     `If you focus on what you left behind, you will never be able to see what lies ahead. -- Gusteau (Ratatouille)`,
@@ -61,13 +60,6 @@ let discoveries = [
       `Venture outside your comfort zone. The rewards are worth it. --Rapunzel (Tangled)`,
       `The things that make me different are the things that make me ME. -- Piglet (Winnie the Pooh)`
   ]
-
-
-
-
-
-
-
 
 
   let images = [
