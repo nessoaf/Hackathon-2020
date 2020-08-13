@@ -67,11 +67,9 @@ export default function Quotes() {
 
   return (
     <div className="quote-container">
-      <Card className="ml-5 mr-5 mb-4 mt-4 w-80">
-        <img src={image} alt="random img"></img>
-        <Card.Body>
-          <h3><span>{quote}</span></h3>
-        </Card.Body>
+      <Card className="ml-5 mr-5 mb-4 mt-3 w-80">
+        <img src={image}></img>
+        <h3 className="centered"><span>{quote}</span></h3>
       </Card>
       <Button onClick={handleClick} className="content">Generate Quote</Button>
     </div>
