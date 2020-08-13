@@ -3,14 +3,19 @@ import { Card } from 'react-bootstrap'
 import  {Button}  from 'react-bootstrap'
 import { Dropdown } from 'react-bootstrap'
 
-export default function ImageCreated() {
+export default function ImageCreated(props) {
   return (
     <div className="imagecreated-container">
+
       <Card className="ml-5 mr-5 mb-4 mt-5 w-60">
-        <img className='image' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/inspirational-quotes-william-james-1562000241.png?crop=1xw:1xh;center,top&resize=980:*" />
+        <img src={props.image}></img>
+        <div className=''>
+          <h3 className='centered quotes'><span className=''>{props.quote}</span></h3>
+        </div>
       </Card>
+
       <div className="button-container">
-      <Button variant="light" className="m-3 z-idx content">Create</Button>
+      <Button variant="light" className="m-3 z-idx content" onClick={props.handleGenerate}>Create</Button>
         <Dropdown className="m-3 border-0">
           <Dropdown.Toggle className="border-0 z-idx content" variant="light" id="dropdown-basic">
             Export 
