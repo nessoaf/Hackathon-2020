@@ -1,5 +1,48 @@
+@font-face {
+  src: url('./fonts/AbrilFatface-Regular.ttf');
+  font-family: Fatface;
+}
+.shadows {
+  font-family: Fatface;
+}
+.fatface{
+  font-family: Fatface;
+}
+
+@font-face {
+  src: url('./fonts/DancingScript-VariableFont_wght.ttf');
+  font-family: Dancing;
+}
+.dancing {
+  font-family: Dancing;
+}
+
+@font-face {
+  src: url('./fonts/Monoton-Regular.ttf');
+  font-family: Monoton;
+}
+.monoton {
+  font-family: monoton;
+}
+
+@font-face {
+  src: url('./fonts/PressStart2P-Regular.ttf');
+  font-family: Start2p;
+}
+.start2p {
+  font-family: Start2p;
+}
+
+@font-face {
+  src: url('./fonts/ShadowsIntoLight-Regular.ttf');
+  font-family: Shadow;
+}
+.shadow {
+  font-family: Shadow
+}
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 .title {
   font-family: 'Londrina Shadow', cursive;
