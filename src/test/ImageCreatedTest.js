@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-//import QuoteButton from `./QuoteButton`
 import { Card } from 'react-bootstrap'
-//import axios from `axios`
 import { Button } from 'react-bootstrap'
+import { Dropdown } from 'react-bootstrap'
 
 
 
-export default function Quotes() {
+
+export default function ImageCreatedTest() {
+
   let [quote, setQuote] = useState(``)
   let [funny, setFunny] = useState(``)
   let [discovery, setDiscovery] = useState(``)
@@ -45,21 +46,29 @@ export default function Quotes() {
     `No great discovery was ever made without a bold guess.― Isaac Newton`,
     `Discovery consists of looking at the same thing as everyone else and thinking something different.― Albert Szent - Gyorgyi`,
     `We must risk going too far to discover just how far we can go.`,
-    ]
+  ]
   let upliftin = [
     `People who wonder whether the glass is half empty or half full miss the point.The glass is refillable.– Simon Sinek`,
-      `Think like a proton.Always positive.– Anonymous`,
-      `No one is perfect — that’s why pencils have erasers.– Anonymous`,
-      `Choose to be optimistic, it feels better.– Dalai Lama`,
-      `The meaning of life is to find your gift.The purpose of life is to give it away.– Anonymous`
+    `Think like a proton.Always positive.– Anonymous`,
+    `No one is perfect — that’s why pencils have erasers.– Anonymous`,
+    `Choose to be optimistic, it feels better.– Dalai Lama`,
+    `The meaning of life is to find your gift.The purpose of life is to give it away.– Anonymous`
+
   ]
   let disneys = [
     `If you focus on what you left behind, you will never be able to see what lies ahead. -- Gusteau (Ratatouille)`,
-      `Oh yes, the past can hurt. But the way I see it, you can either run from it or learn from it. -- Rafiki (The Lion King)`,
-      `All our dreams can come true, if we have the courage to pursue them. -- Walt Disney`,
-      `Venture outside your comfort zone. The rewards are worth it. --Rapunzel (Tangled)`,
-      `The things that make me different are the things that make me ME. -- Piglet (Winnie the Pooh)`
+    `Oh yes, the past can hurt. But the way I see it, you can either run from it or learn from it. -- Rafiki (The Lion King)`,
+    `All our dreams can come true, if we have the courage to pursue them. -- Walt Disney`,
+    `Venture outside your comfort zone. The rewards are worth it. --Rapunzel (Tangled)`,
+    `The things that make me different are the things that make me ME. -- Piglet (Winnie the Pooh)`
   ]
+
+
+
+
+
+
+
 
 
   let images = [
@@ -118,14 +127,30 @@ export default function Quotes() {
   }
 
   return (
-    <div className='quote-container'>
-      <Card className='ml-5 mr-5 mb-4 mt-3 w-80'>
-        <img src={image}></img>
-        <div className=''>
-          <h3 className='centered quotes'><span className=''>{quote}</span></h3>
-        </div>
+    <div className="imagecreated-container">
+      <Card className="ml-5 mr-5 mb-4 mt-5 w-80">
+        <Card className='ml-5 mr-5 mb-4 mt-3 w-80'>
+          <img src={image}></img>
+          <div className=''>
+            <h3 className='centered quotes'><span className=''>{quote}</span></h3>
+          </div>
+        </Card>
+        <Button onClick={handleClick} className='content'>Generate Quote</Button>
       </Card>
-      <Button onClick={handleClick} className='content' variant="light" >Generate Quote</Button>
+      <div className="button-container">
+        <Button className="m-3 content">Create</Button>
+        <Dropdown className="m-3 border-0">
+          <Dropdown.Toggle className="border-0 content" id="dropdown-basic">
+            Export
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1" className="content">Small</Dropdown.Item>
+            <Dropdown.Item href="#/action-2" className="content">Medium</Dropdown.Item>
+            <Dropdown.Item href="#/action-3" className="content">Large</Dropdown.Item>
+            <Dropdown.Item href="#/action-3" className="content">Vector</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </div>
     </div>
   )
 }

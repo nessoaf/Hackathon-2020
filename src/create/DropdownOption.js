@@ -2,10 +2,11 @@ import React from 'react'
 import { Dropdown } from 'react-bootstrap'
 
 export default function DropdownOption() {
+  
   return (
     <div className="dropdown-container">
       <Dropdown className="mb-4 background">
-        <Dropdown.Toggle variant="light" id="dropdown-basic" className="z-idx">
+        <Dropdown.Toggle variant="light" id="dropdown-basic" className="pr-4 pl-4 z-idx">
           Quote Genre
         </Dropdown.Toggle>
         <Dropdown.Menu>
@@ -16,7 +17,7 @@ export default function DropdownOption() {
         </Dropdown.Menu>
       </Dropdown>
       <Dropdown className="mb-4 quote-genre">
-        <Dropdown.Toggle variant="light" id="dropdown-basic" className="z-idx">
+        <Dropdown.Toggle variant="light" id="dropdown-basic" className="pr-4 pl-4 z-idx">
           Fonts
         </Dropdown.Toggle>
 
@@ -41,7 +42,7 @@ export default function DropdownOption() {
         </Dropdown.Menu>
       </Dropdown>
       <Dropdown className="mb-4 image-type">
-        <Dropdown.Toggle variant="light" id="dropdown-basic" className="z-idx">
+        <Dropdown.Toggle variant="light" id="dropdown-basic" className="pr-4 pl-4 z-idx">
           Background
         </Dropdown.Toggle>
 
@@ -59,7 +60,7 @@ export default function DropdownOption() {
         </Dropdown.Menu>
       </Dropdown>
       <Dropdown className="mb-4 frame">
-        <Dropdown.Toggle variant="light" id="dropdown-basic" className="z-idx">
+        <Dropdown.Toggle variant="light" id="dropdown-basic" className="pr-4 pl-4 z-idx">
           Frame
         </Dropdown.Toggle>
 
@@ -73,6 +74,7 @@ export default function DropdownOption() {
           <Dropdown.Item href="#/action-3">Circular</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
+      <img hidden className='nesso' src="./img/nesso.png" alt=""/>
     </div>
   )
 }
