@@ -90,6 +90,13 @@ code {
 .btn {
   width: 150px;
   border: none;
+  border-color: none;
   color: black;
   background-color: #ADC7D9 !important;
+}
+
+.btn-success {
+  width: 150px;
+  border-color: none;
+  color: black;
 }
