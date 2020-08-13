@@ -5,10 +5,10 @@ export default function DownloadOption() {
   return (
     <div className="download-container"> 
       <div className="image-container">
-        <img src="./img/facebook.png" />
-        <img src="./img/instagram.png" />
-        <img src="./img/pinterest.png" />
-        <img src="./img/twitter.png" />
+        <img className='icon' src="./img/facebook.png" />
+        <img className='icon' src="./img/instagram.png" />
+        <img className='icon' src="./img/pinterest.png" />
+        <img className='icon' src="./img/twitter.png" />
       </div>
     </div>
   ) 

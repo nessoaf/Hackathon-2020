@@ -1,5 +1,45 @@
+@font-face {
+  src: url('./fonts/AbrilFatface-Regular.ttf');
+  font-family: Fatface;
+}
+.fatface{
+  font-family: Fatface;
+}
+
+@font-face {
+  src: url('./fonts/DancingScript-VariableFont_wght.ttf');
+  font-family: Dancing;
+}
+.dancing {
+  font-family: Dancing;
+}
+
+@font-face {
+  src: url('./fonts/Monoton-Regular.ttf');
+  font-family: Monoton;
+}
+.monoton {
+  font-family: monoton;
+}
+
+@font-face {
+  src: url('./fonts/PressStart2P-Regular.ttf');
+  font-family: Start2p;
+}
+.start2p {
+  font-family: Start2p;
+}
+
+@font-face {
+  src: url('./fonts/ShadowsIntoLight-Regular.ttf');
+  font-family: Shadow;
+}
+.shadow {
+  font-family: Shadow
+}
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 .title {
   font-family: 'Londrina Shadow', cursive;
@@ -9,13 +49,12 @@
   font-family: 'Roboto', sans-serif;
 }
 .App {
-  text-align: center;
-  background-color: #FFFFF4;
-  
+  text-align: center;  
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  background-color: #ADC7D9 !important;
+  background-color: #ADC7D9 !important; 
+  border-color: none; 
 }
 
 .navbar-header {
@@ -39,38 +78,18 @@
   margin-left: -80px;
 }
 
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbarcolor {
+  background-color: #69A6D1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textcolor {
+  color: #414B52;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  text-align: right;
+  /* font-family: Fatface; */
+  font-family: Dancing;
+  font-family: monoton;
+  font-family: Start2p;
+  font-family: Shadow;
 }
