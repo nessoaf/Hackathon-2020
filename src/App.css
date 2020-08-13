@@ -2,9 +2,6 @@
   src: url('./fonts/AbrilFatface-Regular.ttf');
   font-family: Fatface;
 }
-.shadows {
-  font-family: Fatface;
-}
 .fatface{
   font-family: Fatface;
 }
@@ -86,4 +83,12 @@
 
 .textcolor {
   color: #414B52;
+}
+.name {
+  text-align: right;
+  /* font-family: Fatface; */
+  font-family: Dancing;
+  font-family: monoton;
+  font-family: Start2p;
+  font-family: Shadow;
 }
