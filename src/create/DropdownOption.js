@@ -34,10 +34,9 @@ export default function DropdownOption() {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Small</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Large</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Vector</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">Color</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Black</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">White</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <Dropdown className="m-3 image-type">
